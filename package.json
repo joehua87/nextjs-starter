@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-starter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Jag Reehal",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "flow": "npm run lint && flow",
+    "lint": "eslint .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "eslint": "^3.15.0",
+    "next": "^2.0.0-beta",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "flow-bin": "^0.37.4"
+  }
+}
